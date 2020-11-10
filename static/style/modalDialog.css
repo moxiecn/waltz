@@ -1,0 +1,6 @@
+/*设置模态对话框的最大高度及允许垂直滚动条.
+ */
+.modal .modal-body {
+    max-height: 600px;
+    overflow-y: auto;
+}

@@ -1,0 +1,300 @@
+2020-11-10 09:42:05,908 - [23.INFO.teset02] - __init__.py/create_app - Flask已实例化.
+2020-11-10 09:42:05,908 - [24.INFO.teset02] - __init__.py/create_app - Basedir of the project is: /macdata/workspace/mySpace/newtechnic/myTestting/python/pycharm/waltz
+2020-11-10 09:42:05,908 - [25.INFO.teset02] - __init__.py/create_app - The dbsn is: mysql+pymysql://python:12345678@127.0.0.1:3306/python?charset=utf8
+2020-11-10 09:42:05,908 - [31.INFO.teset02] - __init__.py/create_app - Flask实例app1的配置已加载.-[default]-SECRET_KEY=[hard to guess string]
+2020-11-10 09:42:05,909 - [37.INFO.teset02] - __init__.py/create_app - Flask实例app1已经和炼金术对象db绑定.
+2020-11-10 09:42:05,910 - [41.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置CSRF保護.
+2020-11-10 09:42:05,918 - [46.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義session.
+2020-11-10 09:42:05,918 - [54.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義上傳組件.
+2020-11-10 09:42:05,935 - [72.ERROR.teset02] - __init__.py/create_app - Flask实例app1已经綁定藍圖.
+2020-11-10 09:42:05,966 - [110.INFO.teset02] - manage.py/<module> - __main__准备
+2020-11-10 09:42:05,966 - [111.INFO.teset02] - manage.py/<module> - Map([<Rule '/securityJsp/base/SyuserOrganizationGrant.jsp' (HEAD, OPTIONS, GET) -> bp_base.grant_user_organization_page>,
+ <Rule '/securityJsp/base/SyuserRoleGrant.jsp' (HEAD, OPTIONS, GET) -> bp_base.grant_user_role_page>,
+ <Rule '/securityJsp/base/SyuserForm.jsp' (HEAD, OPTIONS, GET) -> bp_base.form_user>,
+ <Rule '/securityJsp/base/Syuser.jsp' (HEAD, OPTIONS, GET) -> bp_base.index_user>,
+ <Rule '/securityJsp/userInfo.jsp' (HEAD, OPTIONS, GET) -> bp_base.syuser_curruser_info>,
+ <Rule '/style/icons.jsp' (HEAD, OPTIONS, GET) -> bp_base.icons>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_logout.action' (POST, OPTIONS) -> bp_base.do_logout>,
+ <Rule '/base/syuser!doNotNeedSecurity_updateCurrentPwd.action' (POST, OPTIONS) -> bp_base.do_updatePwdForCurrentUser>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_login.action' (POST, OPTIONS) -> bp_base.do_login>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_lock.action' (POST, OPTIONS) -> bp_base.do_unlock>,
+ <Rule '/base/syuser!grantOrganization.action' (POST, OPTIONS) -> bp_base.grant_user_organization>,
+ <Rule '/base/syuser!grantRole.action' (POST, OPTIONS) -> bp_base.grant_user_role>,
+ <Rule '/base/syuser!getById.action' (POST, OPTIONS) -> bp_base.syuser_getById>,
+ <Rule '/base/syuser!update.action' (POST, OPTIONS) -> bp_base.syuser_update>,
+ <Rule '/base/syuser!delete.action' (POST, OPTIONS) -> bp_base.syuser_delete>,
+ <Rule '/base/syuser!grid.action' (POST, OPTIONS) -> bp_base.user_grid>,
+ <Rule '/base/syuser!save.action' (POST, OPTIONS) -> bp_base.syuser_save>,
+ <Rule '/base/north' (POST, OPTIONS) -> bp_base.north>,
+ <Rule '/base/south' (POST, OPTIONS) -> bp_base.south>,
+ <Rule '/base/west' (POST, OPTIONS) -> bp_base.west>,
+ <Rule '/login' (HEAD, OPTIONS, GET) -> bp_base.login>,
+ <Rule '/doit' (HEAD, OPTIONS, GET) -> bp_base.dofunc>,
+ <Rule '/' (HEAD, OPTIONS, GET) -> bp_base.index>,
+ <Rule '/static/bootstrap/<filename>' (HEAD, OPTIONS, GET) -> bootstrap.static>,
+ <Rule '/static/<filename>' (HEAD, OPTIONS, GET) -> static>])
+2020-11-10 09:42:06,489 - [23.INFO.teset02] - __init__.py/create_app - Flask已实例化.
+2020-11-10 09:42:06,490 - [24.INFO.teset02] - __init__.py/create_app - Basedir of the project is: /macdata/workspace/mySpace/newtechnic/myTestting/python/pycharm/waltz
+2020-11-10 09:42:06,490 - [25.INFO.teset02] - __init__.py/create_app - The dbsn is: mysql+pymysql://python:12345678@127.0.0.1:3306/python?charset=utf8
+2020-11-10 09:42:06,490 - [31.INFO.teset02] - __init__.py/create_app - Flask实例app1的配置已加载.-[default]-SECRET_KEY=[hard to guess string]
+2020-11-10 09:42:06,490 - [37.INFO.teset02] - __init__.py/create_app - Flask实例app1已经和炼金术对象db绑定.
+2020-11-10 09:42:06,491 - [41.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置CSRF保護.
+2020-11-10 09:42:06,495 - [46.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義session.
+2020-11-10 09:42:06,495 - [54.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義上傳組件.
+2020-11-10 09:42:06,509 - [72.ERROR.teset02] - __init__.py/create_app - Flask实例app1已经綁定藍圖.
+2020-11-10 09:42:06,530 - [110.INFO.teset02] - manage.py/<module> - __main__准备
+2020-11-10 09:42:06,530 - [111.INFO.teset02] - manage.py/<module> - Map([<Rule '/securityJsp/base/SyuserOrganizationGrant.jsp' (GET, OPTIONS, HEAD) -> bp_base.grant_user_organization_page>,
+ <Rule '/securityJsp/base/SyuserRoleGrant.jsp' (GET, OPTIONS, HEAD) -> bp_base.grant_user_role_page>,
+ <Rule '/securityJsp/base/SyuserForm.jsp' (GET, OPTIONS, HEAD) -> bp_base.form_user>,
+ <Rule '/securityJsp/base/Syuser.jsp' (GET, OPTIONS, HEAD) -> bp_base.index_user>,
+ <Rule '/securityJsp/userInfo.jsp' (GET, OPTIONS, HEAD) -> bp_base.syuser_curruser_info>,
+ <Rule '/style/icons.jsp' (GET, OPTIONS, HEAD) -> bp_base.icons>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_logout.action' (POST, OPTIONS) -> bp_base.do_logout>,
+ <Rule '/base/syuser!doNotNeedSecurity_updateCurrentPwd.action' (POST, OPTIONS) -> bp_base.do_updatePwdForCurrentUser>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_login.action' (POST, OPTIONS) -> bp_base.do_login>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_lock.action' (POST, OPTIONS) -> bp_base.do_unlock>,
+ <Rule '/base/syuser!grantOrganization.action' (POST, OPTIONS) -> bp_base.grant_user_organization>,
+ <Rule '/base/syuser!grantRole.action' (POST, OPTIONS) -> bp_base.grant_user_role>,
+ <Rule '/base/syuser!getById.action' (POST, OPTIONS) -> bp_base.syuser_getById>,
+ <Rule '/base/syuser!update.action' (POST, OPTIONS) -> bp_base.syuser_update>,
+ <Rule '/base/syuser!delete.action' (POST, OPTIONS) -> bp_base.syuser_delete>,
+ <Rule '/base/syuser!grid.action' (POST, OPTIONS) -> bp_base.user_grid>,
+ <Rule '/base/syuser!save.action' (POST, OPTIONS) -> bp_base.syuser_save>,
+ <Rule '/base/north' (POST, OPTIONS) -> bp_base.north>,
+ <Rule '/base/south' (POST, OPTIONS) -> bp_base.south>,
+ <Rule '/base/west' (POST, OPTIONS) -> bp_base.west>,
+ <Rule '/login' (GET, OPTIONS, HEAD) -> bp_base.login>,
+ <Rule '/doit' (GET, OPTIONS, HEAD) -> bp_base.dofunc>,
+ <Rule '/' (GET, OPTIONS, HEAD) -> bp_base.index>,
+ <Rule '/static/bootstrap/<filename>' (GET, OPTIONS, HEAD) -> bootstrap.static>,
+ <Rule '/static/<filename>' (GET, OPTIONS, HEAD) -> static>])
+2020-11-10 09:42:16,064 - [18.DEBUG.teset02] - user.py/login - 处理login
+2020-11-10 09:43:03,017 - [18.DEBUG.teset02] - user.py/login - 处理login
+2020-11-10 09:43:04,582 - [90.DEBUG.teset02] - user.py/do_login - 登录成功.0-超级管理员-admin
+2020-11-10 09:43:04,594 - [12.INFO.teset02] - index.py/index - 进入主页bp_base./
+2020-11-10 09:43:04,675 - [27.INFO.teset02] - index.py/north - 执行NORTH
+2020-11-10 09:43:16,077 - [118.INFO.teset02] - user.py/do_logout - 登退成功.0-admin
+2020-11-10 09:43:16,094 - [18.DEBUG.teset02] - user.py/login - 处理login
+2020-11-10 09:43:17,396 - [90.DEBUG.teset02] - user.py/do_login - 登录成功.0-超级管理员-admin
+2020-11-10 09:43:17,415 - [12.INFO.teset02] - index.py/index - 进入主页bp_base./
+2020-11-10 09:43:17,483 - [27.INFO.teset02] - index.py/north - 执行NORTH
+2020-11-10 09:48:22,220 - [23.INFO.teset02] - __init__.py/create_app - Flask已实例化.
+2020-11-10 09:48:22,220 - [24.INFO.teset02] - __init__.py/create_app - Basedir of the project is: /macdata/workspace/mySpace/newtechnic/myTestting/python/pycharm/waltz
+2020-11-10 09:48:22,220 - [25.INFO.teset02] - __init__.py/create_app - The dbsn is: mysql+pymysql://python:12345678@127.0.0.1:3306/python?charset=utf8
+2020-11-10 09:48:22,221 - [31.INFO.teset02] - __init__.py/create_app - Flask实例app1的配置已加载.-[default]-SECRET_KEY=[hard to guess string]
+2020-11-10 09:48:22,221 - [37.INFO.teset02] - __init__.py/create_app - Flask实例app1已经和炼金术对象db绑定.
+2020-11-10 09:48:22,222 - [41.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置CSRF保護.
+2020-11-10 09:48:22,226 - [46.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義session.
+2020-11-10 09:48:22,226 - [54.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義上傳組件.
+2020-11-10 09:48:22,240 - [72.ERROR.teset02] - __init__.py/create_app - Flask实例app1已经綁定藍圖.
+2020-11-10 09:48:22,263 - [110.INFO.teset02] - manage.py/<module> - __main__准备
+2020-11-10 09:48:22,263 - [111.INFO.teset02] - manage.py/<module> - Map([<Rule '/securityJsp/base/SyuserOrganizationGrant.jsp' (HEAD, GET, OPTIONS) -> bp_base.grant_user_organization_page>,
+ <Rule '/securityJsp/base/SyuserRoleGrant.jsp' (HEAD, GET, OPTIONS) -> bp_base.grant_user_role_page>,
+ <Rule '/securityJsp/base/SyuserForm.jsp' (HEAD, GET, OPTIONS) -> bp_base.form_user>,
+ <Rule '/securityJsp/base/Syuser.jsp' (HEAD, GET, OPTIONS) -> bp_base.index_user>,
+ <Rule '/securityJsp/userInfo.jsp' (HEAD, GET, OPTIONS) -> bp_base.syuser_curruser_info>,
+ <Rule '/style/icons.jsp' (HEAD, GET, OPTIONS) -> bp_base.icons>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_logout.action' (POST, OPTIONS) -> bp_base.do_logout>,
+ <Rule '/base/syuser!doNotNeedSecurity_updateCurrentPwd.action' (POST, OPTIONS) -> bp_base.do_updatePwdForCurrentUser>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_login.action' (POST, OPTIONS) -> bp_base.do_login>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_lock.action' (POST, OPTIONS) -> bp_base.do_unlock>,
+ <Rule '/base/syuser!grantOrganization.action' (POST, OPTIONS) -> bp_base.grant_user_organization>,
+ <Rule '/base/syuser!grantRole.action' (POST, OPTIONS) -> bp_base.grant_user_role>,
+ <Rule '/base/syuser!getById.action' (POST, OPTIONS) -> bp_base.syuser_getById>,
+ <Rule '/base/syuser!update.action' (POST, OPTIONS) -> bp_base.syuser_update>,
+ <Rule '/base/syuser!delete.action' (POST, OPTIONS) -> bp_base.syuser_delete>,
+ <Rule '/base/syuser!grid.action' (POST, OPTIONS) -> bp_base.user_grid>,
+ <Rule '/base/syuser!save.action' (POST, OPTIONS) -> bp_base.syuser_save>,
+ <Rule '/base/north' (POST, OPTIONS) -> bp_base.north>,
+ <Rule '/base/south' (POST, OPTIONS) -> bp_base.south>,
+ <Rule '/base/west' (POST, OPTIONS) -> bp_base.west>,
+ <Rule '/login' (HEAD, GET, OPTIONS) -> bp_base.login>,
+ <Rule '/doit' (HEAD, GET, OPTIONS) -> bp_base.dofunc>,
+ <Rule '/' (HEAD, GET, OPTIONS) -> bp_base.index>,
+ <Rule '/static/bootstrap/<filename>' (HEAD, GET, OPTIONS) -> bootstrap.static>,
+ <Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+2020-11-10 09:48:22,876 - [23.INFO.teset02] - __init__.py/create_app - Flask已实例化.
+2020-11-10 09:48:22,877 - [24.INFO.teset02] - __init__.py/create_app - Basedir of the project is: /macdata/workspace/mySpace/newtechnic/myTestting/python/pycharm/waltz
+2020-11-10 09:48:22,877 - [25.INFO.teset02] - __init__.py/create_app - The dbsn is: mysql+pymysql://python:12345678@127.0.0.1:3306/python?charset=utf8
+2020-11-10 09:48:22,877 - [31.INFO.teset02] - __init__.py/create_app - Flask实例app1的配置已加载.-[default]-SECRET_KEY=[hard to guess string]
+2020-11-10 09:48:22,877 - [37.INFO.teset02] - __init__.py/create_app - Flask实例app1已经和炼金术对象db绑定.
+2020-11-10 09:48:22,878 - [41.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置CSRF保護.
+2020-11-10 09:48:22,882 - [46.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義session.
+2020-11-10 09:48:22,882 - [54.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義上傳組件.
+2020-11-10 09:48:22,895 - [72.ERROR.teset02] - __init__.py/create_app - Flask实例app1已经綁定藍圖.
+2020-11-10 09:48:22,919 - [110.INFO.teset02] - manage.py/<module> - __main__准备
+2020-11-10 09:48:22,920 - [111.INFO.teset02] - manage.py/<module> - Map([<Rule '/securityJsp/base/SyuserOrganizationGrant.jsp' (HEAD, GET, OPTIONS) -> bp_base.grant_user_organization_page>,
+ <Rule '/securityJsp/base/SyuserRoleGrant.jsp' (HEAD, GET, OPTIONS) -> bp_base.grant_user_role_page>,
+ <Rule '/securityJsp/base/SyuserForm.jsp' (HEAD, GET, OPTIONS) -> bp_base.form_user>,
+ <Rule '/securityJsp/base/Syuser.jsp' (HEAD, GET, OPTIONS) -> bp_base.index_user>,
+ <Rule '/securityJsp/userInfo.jsp' (HEAD, GET, OPTIONS) -> bp_base.syuser_curruser_info>,
+ <Rule '/style/icons.jsp' (HEAD, GET, OPTIONS) -> bp_base.icons>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_logout.action' (OPTIONS, POST) -> bp_base.do_logout>,
+ <Rule '/base/syuser!doNotNeedSecurity_updateCurrentPwd.action' (OPTIONS, POST) -> bp_base.do_updatePwdForCurrentUser>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_login.action' (OPTIONS, POST) -> bp_base.do_login>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_lock.action' (OPTIONS, POST) -> bp_base.do_unlock>,
+ <Rule '/base/syuser!grantOrganization.action' (OPTIONS, POST) -> bp_base.grant_user_organization>,
+ <Rule '/base/syuser!grantRole.action' (OPTIONS, POST) -> bp_base.grant_user_role>,
+ <Rule '/base/syuser!getById.action' (OPTIONS, POST) -> bp_base.syuser_getById>,
+ <Rule '/base/syuser!update.action' (OPTIONS, POST) -> bp_base.syuser_update>,
+ <Rule '/base/syuser!delete.action' (OPTIONS, POST) -> bp_base.syuser_delete>,
+ <Rule '/base/syuser!grid.action' (OPTIONS, POST) -> bp_base.user_grid>,
+ <Rule '/base/syuser!save.action' (OPTIONS, POST) -> bp_base.syuser_save>,
+ <Rule '/base/north' (OPTIONS, POST) -> bp_base.north>,
+ <Rule '/base/south' (OPTIONS, POST) -> bp_base.south>,
+ <Rule '/base/west' (OPTIONS, POST) -> bp_base.west>,
+ <Rule '/login' (HEAD, GET, OPTIONS) -> bp_base.login>,
+ <Rule '/doit' (HEAD, GET, OPTIONS) -> bp_base.dofunc>,
+ <Rule '/' (HEAD, GET, OPTIONS) -> bp_base.index>,
+ <Rule '/static/bootstrap/<filename>' (HEAD, GET, OPTIONS) -> bootstrap.static>,
+ <Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>])
+2020-11-10 09:51:39,126 - [23.INFO.teset02] - __init__.py/create_app - Flask已实例化.
+2020-11-10 09:51:39,126 - [24.INFO.teset02] - __init__.py/create_app - Basedir of the project is: /macdata/workspace/mySpace/newtechnic/myTestting/python/pycharm/waltz
+2020-11-10 09:51:39,126 - [25.INFO.teset02] - __init__.py/create_app - The dbsn is: mysql+pymysql://python:12345678@127.0.0.1:3306/python?charset=utf8
+2020-11-10 09:52:11,430 - [23.INFO.teset02] - __init__.py/create_app - Flask已实例化.
+2020-11-10 09:52:11,430 - [24.INFO.teset02] - __init__.py/create_app - Basedir of the project is: /macdata/workspace/mySpace/newtechnic/myTestting/python/pycharm/waltz
+2020-11-10 09:52:11,430 - [25.INFO.teset02] - __init__.py/create_app - The dbsn is: mysql+pymysql://python:12345678@127.0.0.1:3306/python?charset=utf8
+2020-11-10 09:55:18,563 - [23.INFO.teset02] - __init__.py/create_app - Flask已实例化.
+2020-11-10 09:55:18,563 - [24.INFO.teset02] - __init__.py/create_app - Basedir of the project is: /macdata/workspace/mySpace/newtechnic/myTestting/python/pycharm/waltz
+2020-11-10 09:55:18,563 - [25.INFO.teset02] - __init__.py/create_app - The dbsn is: mysql+pymysql://python:12345678@127.0.0.1:3306/python?charset=utf8
+2020-11-10 09:55:18,564 - [32.INFO.teset02] - __init__.py/create_app - Flask实例app1的配置已加载.-[default]-SECRET_KEY=[hard to guess string]
+2020-11-10 09:55:18,564 - [38.INFO.teset02] - __init__.py/create_app - Flask实例app1已经和炼金术对象db绑定.
+2020-11-10 09:55:18,565 - [42.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置CSRF保護.
+2020-11-10 09:55:18,568 - [47.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義session.
+2020-11-10 09:55:18,569 - [55.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義上傳組件.
+2020-11-10 09:55:18,583 - [73.ERROR.teset02] - __init__.py/create_app - Flask实例app1已经綁定藍圖.
+2020-11-10 09:55:18,603 - [110.INFO.teset02] - manage.py/<module> - __main__准备
+2020-11-10 09:55:18,603 - [111.INFO.teset02] - manage.py/<module> - Map([<Rule '/securityJsp/base/SyuserOrganizationGrant.jsp' (GET, OPTIONS, HEAD) -> bp_base.grant_user_organization_page>,
+ <Rule '/securityJsp/base/SyuserRoleGrant.jsp' (GET, OPTIONS, HEAD) -> bp_base.grant_user_role_page>,
+ <Rule '/securityJsp/base/SyuserForm.jsp' (GET, OPTIONS, HEAD) -> bp_base.form_user>,
+ <Rule '/securityJsp/base/Syuser.jsp' (GET, OPTIONS, HEAD) -> bp_base.index_user>,
+ <Rule '/securityJsp/userInfo.jsp' (GET, OPTIONS, HEAD) -> bp_base.syuser_curruser_info>,
+ <Rule '/style/icons.jsp' (GET, OPTIONS, HEAD) -> bp_base.icons>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_logout.action' (OPTIONS, POST) -> bp_base.do_logout>,
+ <Rule '/base/syuser!doNotNeedSecurity_updateCurrentPwd.action' (OPTIONS, POST) -> bp_base.do_updatePwdForCurrentUser>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_login.action' (OPTIONS, POST) -> bp_base.do_login>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_lock.action' (OPTIONS, POST) -> bp_base.do_unlock>,
+ <Rule '/base/syuser!grantOrganization.action' (OPTIONS, POST) -> bp_base.grant_user_organization>,
+ <Rule '/base/syuser!grantRole.action' (OPTIONS, POST) -> bp_base.grant_user_role>,
+ <Rule '/base/syuser!getById.action' (OPTIONS, POST) -> bp_base.syuser_getById>,
+ <Rule '/base/syuser!update.action' (OPTIONS, POST) -> bp_base.syuser_update>,
+ <Rule '/base/syuser!delete.action' (OPTIONS, POST) -> bp_base.syuser_delete>,
+ <Rule '/base/syuser!grid.action' (OPTIONS, POST) -> bp_base.user_grid>,
+ <Rule '/base/syuser!save.action' (OPTIONS, POST) -> bp_base.syuser_save>,
+ <Rule '/base/north' (OPTIONS, POST) -> bp_base.north>,
+ <Rule '/base/south' (OPTIONS, POST) -> bp_base.south>,
+ <Rule '/base/west' (OPTIONS, POST) -> bp_base.west>,
+ <Rule '/login' (GET, OPTIONS, HEAD) -> bp_base.login>,
+ <Rule '/doit' (GET, OPTIONS, HEAD) -> bp_base.dofunc>,
+ <Rule '/' (GET, OPTIONS, HEAD) -> bp_base.index>,
+ <Rule '/static/bootstrap/<filename>' (GET, OPTIONS, HEAD) -> bootstrap.static>,
+ <Rule '/static/<filename>' (GET, OPTIONS, HEAD) -> static>])
+2020-11-10 09:55:19,115 - [23.INFO.teset02] - __init__.py/create_app - Flask已实例化.
+2020-11-10 09:55:19,115 - [24.INFO.teset02] - __init__.py/create_app - Basedir of the project is: /macdata/workspace/mySpace/newtechnic/myTestting/python/pycharm/waltz
+2020-11-10 09:55:19,115 - [25.INFO.teset02] - __init__.py/create_app - The dbsn is: mysql+pymysql://python:12345678@127.0.0.1:3306/python?charset=utf8
+2020-11-10 09:55:19,116 - [32.INFO.teset02] - __init__.py/create_app - Flask实例app1的配置已加载.-[default]-SECRET_KEY=[hard to guess string]
+2020-11-10 09:55:19,116 - [38.INFO.teset02] - __init__.py/create_app - Flask实例app1已经和炼金术对象db绑定.
+2020-11-10 09:55:19,117 - [42.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置CSRF保護.
+2020-11-10 09:55:19,121 - [47.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義session.
+2020-11-10 09:55:19,121 - [55.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義上傳組件.
+2020-11-10 09:55:19,135 - [73.ERROR.teset02] - __init__.py/create_app - Flask实例app1已经綁定藍圖.
+2020-11-10 09:55:19,155 - [110.INFO.teset02] - manage.py/<module> - __main__准备
+2020-11-10 09:55:19,155 - [111.INFO.teset02] - manage.py/<module> - Map([<Rule '/securityJsp/base/SyuserOrganizationGrant.jsp' (OPTIONS, HEAD, GET) -> bp_base.grant_user_organization_page>,
+ <Rule '/securityJsp/base/SyuserRoleGrant.jsp' (OPTIONS, HEAD, GET) -> bp_base.grant_user_role_page>,
+ <Rule '/securityJsp/base/SyuserForm.jsp' (OPTIONS, HEAD, GET) -> bp_base.form_user>,
+ <Rule '/securityJsp/base/Syuser.jsp' (OPTIONS, HEAD, GET) -> bp_base.index_user>,
+ <Rule '/securityJsp/userInfo.jsp' (OPTIONS, HEAD, GET) -> bp_base.syuser_curruser_info>,
+ <Rule '/style/icons.jsp' (OPTIONS, HEAD, GET) -> bp_base.icons>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_logout.action' (POST, OPTIONS) -> bp_base.do_logout>,
+ <Rule '/base/syuser!doNotNeedSecurity_updateCurrentPwd.action' (POST, OPTIONS) -> bp_base.do_updatePwdForCurrentUser>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_login.action' (POST, OPTIONS) -> bp_base.do_login>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_lock.action' (POST, OPTIONS) -> bp_base.do_unlock>,
+ <Rule '/base/syuser!grantOrganization.action' (POST, OPTIONS) -> bp_base.grant_user_organization>,
+ <Rule '/base/syuser!grantRole.action' (POST, OPTIONS) -> bp_base.grant_user_role>,
+ <Rule '/base/syuser!getById.action' (POST, OPTIONS) -> bp_base.syuser_getById>,
+ <Rule '/base/syuser!update.action' (POST, OPTIONS) -> bp_base.syuser_update>,
+ <Rule '/base/syuser!delete.action' (POST, OPTIONS) -> bp_base.syuser_delete>,
+ <Rule '/base/syuser!grid.action' (POST, OPTIONS) -> bp_base.user_grid>,
+ <Rule '/base/syuser!save.action' (POST, OPTIONS) -> bp_base.syuser_save>,
+ <Rule '/base/north' (POST, OPTIONS) -> bp_base.north>,
+ <Rule '/base/south' (POST, OPTIONS) -> bp_base.south>,
+ <Rule '/base/west' (POST, OPTIONS) -> bp_base.west>,
+ <Rule '/login' (OPTIONS, HEAD, GET) -> bp_base.login>,
+ <Rule '/doit' (OPTIONS, HEAD, GET) -> bp_base.dofunc>,
+ <Rule '/' (OPTIONS, HEAD, GET) -> bp_base.index>,
+ <Rule '/static/bootstrap/<filename>' (OPTIONS, HEAD, GET) -> bootstrap.static>,
+ <Rule '/static/<filename>' (OPTIONS, HEAD, GET) -> static>])
+2020-11-10 09:55:22,150 - [18.DEBUG.teset02] - user.py/login - 处理login
+2020-11-10 09:55:23,826 - [90.DEBUG.teset02] - user.py/do_login - 登录成功.0-超级管理员-admin
+2020-11-10 09:55:23,839 - [12.INFO.teset02] - index.py/index - 进入主页bp_base./
+2020-11-10 09:55:23,917 - [27.INFO.teset02] - index.py/north - 执行NORTH
+2020-11-10 09:56:00,391 - [23.INFO.teset02] - __init__.py/create_app - Flask已实例化.
+2020-11-10 09:56:00,391 - [24.INFO.teset02] - __init__.py/create_app - Basedir of the project is: /macdata/workspace/mySpace/newtechnic/myTestting/python/pycharm/waltz
+2020-11-10 09:56:00,391 - [25.INFO.teset02] - __init__.py/create_app - The dbsn is: mysql+pymysql://python:12345678@127.0.0.1:3306/python?charset=utf8
+2020-11-10 09:56:00,391 - [32.INFO.teset02] - __init__.py/create_app - Flask实例app1的配置已加载.-[default]-SECRET_KEY=[hard to guess string]
+2020-11-10 09:56:00,392 - [38.INFO.teset02] - __init__.py/create_app - Flask实例app1已经和炼金术对象db绑定.
+2020-11-10 09:56:00,392 - [42.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置CSRF保護.
+2020-11-10 09:56:00,396 - [47.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義session.
+2020-11-10 09:56:00,396 - [55.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義上傳組件.
+2020-11-10 09:56:00,410 - [73.ERROR.teset02] - __init__.py/create_app - Flask实例app1已经綁定藍圖.
+2020-11-10 09:56:00,430 - [110.INFO.teset02] - manage.py/<module> - __main__准备
+2020-11-10 09:56:00,430 - [111.INFO.teset02] - manage.py/<module> - Map([<Rule '/securityJsp/base/SyuserOrganizationGrant.jsp' (GET, OPTIONS, HEAD) -> bp_base.grant_user_organization_page>,
+ <Rule '/securityJsp/base/SyuserRoleGrant.jsp' (GET, OPTIONS, HEAD) -> bp_base.grant_user_role_page>,
+ <Rule '/securityJsp/base/SyuserForm.jsp' (GET, OPTIONS, HEAD) -> bp_base.form_user>,
+ <Rule '/securityJsp/base/Syuser.jsp' (GET, OPTIONS, HEAD) -> bp_base.index_user>,
+ <Rule '/securityJsp/userInfo.jsp' (GET, OPTIONS, HEAD) -> bp_base.syuser_curruser_info>,
+ <Rule '/style/icons.jsp' (GET, OPTIONS, HEAD) -> bp_base.icons>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_logout.action' (POST, OPTIONS) -> bp_base.do_logout>,
+ <Rule '/base/syuser!doNotNeedSecurity_updateCurrentPwd.action' (POST, OPTIONS) -> bp_base.do_updatePwdForCurrentUser>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_login.action' (POST, OPTIONS) -> bp_base.do_login>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_lock.action' (POST, OPTIONS) -> bp_base.do_unlock>,
+ <Rule '/base/syuser!grantOrganization.action' (POST, OPTIONS) -> bp_base.grant_user_organization>,
+ <Rule '/base/syuser!grantRole.action' (POST, OPTIONS) -> bp_base.grant_user_role>,
+ <Rule '/base/syuser!getById.action' (POST, OPTIONS) -> bp_base.syuser_getById>,
+ <Rule '/base/syuser!update.action' (POST, OPTIONS) -> bp_base.syuser_update>,
+ <Rule '/base/syuser!delete.action' (POST, OPTIONS) -> bp_base.syuser_delete>,
+ <Rule '/base/syuser!grid.action' (POST, OPTIONS) -> bp_base.user_grid>,
+ <Rule '/base/syuser!save.action' (POST, OPTIONS) -> bp_base.syuser_save>,
+ <Rule '/base/north' (POST, OPTIONS) -> bp_base.north>,
+ <Rule '/base/south' (POST, OPTIONS) -> bp_base.south>,
+ <Rule '/base/west' (POST, OPTIONS) -> bp_base.west>,
+ <Rule '/login' (GET, OPTIONS, HEAD) -> bp_base.login>,
+ <Rule '/doit' (GET, OPTIONS, HEAD) -> bp_base.dofunc>,
+ <Rule '/' (GET, OPTIONS, HEAD) -> bp_base.index>,
+ <Rule '/static/bootstrap/<filename>' (GET, OPTIONS, HEAD) -> bootstrap.static>,
+ <Rule '/static/<filename>' (GET, OPTIONS, HEAD) -> static>])
+2020-11-10 09:57:08,975 - [23.INFO.teset02] - __init__.py/create_app - Flask已实例化.
+2020-11-10 09:57:08,975 - [24.INFO.teset02] - __init__.py/create_app - Basedir of the project is: /macdata/workspace/mySpace/newtechnic/myTestting/python/pycharm/waltz
+2020-11-10 09:57:08,975 - [25.INFO.teset02] - __init__.py/create_app - The dbsn is: mysql+pymysql://python:12345678@127.0.0.1:3306/python?charset=utf8
+2020-11-10 09:57:08,975 - [32.INFO.teset02] - __init__.py/create_app - Flask实例app1的配置已加载.-[default]-SECRET_KEY=[hard to guess string]
+2020-11-10 09:57:08,976 - [38.INFO.teset02] - __init__.py/create_app - Flask实例app1已经和炼金术对象db绑定.
+2020-11-10 09:57:08,977 - [42.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置CSRF保護.
+2020-11-10 09:57:08,980 - [47.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義session.
+2020-11-10 09:57:08,981 - [55.INFO.teset02] - __init__.py/create_app - Flask实例app1已经設置自定義上傳組件.
+2020-11-10 09:57:08,995 - [73.ERROR.teset02] - __init__.py/create_app - Flask实例app1已经綁定藍圖.
+2020-11-10 09:57:09,016 - [110.INFO.teset02] - manage.py/<module> - __main__准备
+2020-11-10 09:57:09,016 - [111.INFO.teset02] - manage.py/<module> - Map([<Rule '/securityJsp/base/SyuserOrganizationGrant.jsp' (GET, HEAD, OPTIONS) -> bp_base.grant_user_organization_page>,
+ <Rule '/securityJsp/base/SyuserRoleGrant.jsp' (GET, HEAD, OPTIONS) -> bp_base.grant_user_role_page>,
+ <Rule '/securityJsp/base/SyuserForm.jsp' (GET, HEAD, OPTIONS) -> bp_base.form_user>,
+ <Rule '/securityJsp/base/Syuser.jsp' (GET, HEAD, OPTIONS) -> bp_base.index_user>,
+ <Rule '/securityJsp/userInfo.jsp' (GET, HEAD, OPTIONS) -> bp_base.syuser_curruser_info>,
+ <Rule '/style/icons.jsp' (GET, HEAD, OPTIONS) -> bp_base.icons>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_logout.action' (POST, OPTIONS) -> bp_base.do_logout>,
+ <Rule '/base/syuser!doNotNeedSecurity_updateCurrentPwd.action' (POST, OPTIONS) -> bp_base.do_updatePwdForCurrentUser>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_login.action' (POST, OPTIONS) -> bp_base.do_login>,
+ <Rule '/base/syuser!doNotNeedSessionAndSecurity_lock.action' (POST, OPTIONS) -> bp_base.do_unlock>,
+ <Rule '/base/syuser!grantOrganization.action' (POST, OPTIONS) -> bp_base.grant_user_organization>,
+ <Rule '/base/syuser!grantRole.action' (POST, OPTIONS) -> bp_base.grant_user_role>,
+ <Rule '/base/syuser!getById.action' (POST, OPTIONS) -> bp_base.syuser_getById>,
+ <Rule '/base/syuser!update.action' (POST, OPTIONS) -> bp_base.syuser_update>,
+ <Rule '/base/syuser!delete.action' (POST, OPTIONS) -> bp_base.syuser_delete>,
+ <Rule '/base/syuser!grid.action' (POST, OPTIONS) -> bp_base.user_grid>,
+ <Rule '/base/syuser!save.action' (POST, OPTIONS) -> bp_base.syuser_save>,
+ <Rule '/base/north' (POST, OPTIONS) -> bp_base.north>,
+ <Rule '/base/south' (POST, OPTIONS) -> bp_base.south>,
+ <Rule '/base/west' (POST, OPTIONS) -> bp_base.west>,
+ <Rule '/login' (GET, HEAD, OPTIONS) -> bp_base.login>,
+ <Rule '/doit' (GET, HEAD, OPTIONS) -> bp_base.dofunc>,
+ <Rule '/' (GET, HEAD, OPTIONS) -> bp_base.index>,
+ <Rule '/static/bootstrap/<filename>' (GET, HEAD, OPTIONS) -> bootstrap.static>,
+ <Rule '/static/<filename>' (GET, HEAD, OPTIONS) -> static>])

@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}
+    当前登录用户信息
+{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='BlueNileAamin/lib/bootstrap/css/bootstrap.css') }}"
+          type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='BlueNileAamin/stylesheets/theme.css') }}"
+          type="text/css">
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='BlueNileAamin/lib/font-awesome/css/font-awesome.css') }}"
+          type="text/css">
+    <script type="text/javascript" src="{{ url_for('static', filename='BlueNileAamin/lib/bootstrap/js/bootstrap.js') }}"
+            charset="utf-8"></script>
+    <!--Import js that make ajax to support flask_csrf-->
+    <script type="text/javascript" src="{{ url_for('static', filename='jslib.my/ajaxsetup.js') }}"
+            charset="utf-8"></script>
+{% endblock %}
+{% block body %}
+    <body id="mainLayout" class="easyui-layout">
+    <div id="showCurruserInfoDialog" title="今登录者信息" style="display: inline;">
+        <table class="table" style="width:100%; border: 1px solid #1e347b">
+            <tr>
+                <th width="50">用户ID</th>
+                <td>{{ current_user.ID }}</td>
+            </tr>
+            <tr>
+                <th width="50">登录名</th>
+                <td>{{ current_user.LOGINNAME }}</td>
+            </tr>
+            <tr>
+                <th>姓名</th>
+                <td>{{ current_user.NAME }}</td>
+            </tr>
+            <tr>
+                <th>性别</th>
+                <td>{{ '男' if current_user.SEX=='1' else ('女' if current_user.SEX=='0' else current_user.SEX) }}</td>
+            </tr>
+            <tr>
+                <th>年龄</th>
+                <td>{{ current_user.AGE }}</td>
+            </tr>
+            <tr>
+                <th>创建时间</th>
+                <td>{{ current_user.CREATEDATETIME }}</td>
+            </tr>
+            <tr>
+                <th>最近更新时间</th>
+                <td>{{ current_user.UPDATEDATETIME }}</td>
+            </tr>
+        </table>
+    </div>
+    </body>
+{% endblock %}
